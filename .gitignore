@@ -1,0 +1,41 @@
+app/public/local.php
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.cache
+.project
+.settings
+.tmpproj
+*.esproj
+nbproj
+*.sublime-project
+*.sublime-workspace
+
+#Wordpress Documents
+DOCUMENT_ROOT/wp-content/upgrade/*
+DOCUMENT_ROOT/wp-content/backup-db/*
+DOCUMENT_ROOT/wp-content/cache/*
+DOCUMENT_ROOT/wp-content/cache/supercache/*
+DOCUMENT_ROOT/wp-content/w3tc-cache/*
+
+#Always Ignore Files
+
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+node_module/
+.tmp/
